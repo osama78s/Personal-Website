@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="img/icons8-fire-48.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Osama Saif</title>
+</head>
+<body>
+    <!-- preload -->
+    <div class="preload">
+        <img src="img/loading-78-unscreen.gif" alt="">
+    </div>
+    <!-- btn scroll -->
+<button id="up"><i class="fa-solid fa-arrow-up up"></i></button>
+<!-- start setting box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa-solid fa-gear fa-spin setting"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#61A3BA"></li>
+                    <li data-color="#FF6868"></li>
+                    <li data-color="#F1C376"></li>
+                    <li data-color="#4caf50"></li>
+                    <li data-color="#BC7FCD"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h2>Change Background</h2>
+                <div class="random-background">
+                    <span class="yes active" data-content="yes">Yes</span>
+                    <span class="no" data-content="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h2>Show Bullets</h2>
+                <div class=" display">
+                    <span class="yes active" data-display="yes">Yes</span>
+                    <span class="no " data-display="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h2>Show Header</h2>
+                <div class="position">
+                    <span class="yes " data-position="yes">Yes</span>
+                    <span class="no active" data-position="no">No</span>
+                </div>
+            </div>
+            <button class="reset-option">Reset Option</button>
+        </div>
+    </div>
+<!-- end setting box -->
+<!-- start bullets -->
+<ul class="nav-bullets">
+    <li class="bullet" data-section=".about-me">
+        <span class="toggle">about me</span>
+    </li>
+    <li class="bullet" data-section=".skills">
+        <span class="toggle">our skills</span>
+    </li>
+    <li class="bullet" data-section=".gallery">
+        <span class="toggle">our gallary</span>
+    </li>
+    <li class="bullet" data-section=".timeline">
+        <span class="toggle">time line</span>
+    </li>
+    <li class="bullet" data-section=".feature">
+        <span class="toggle">our feature</span>
+    </li>
+    <li class="bullet" data-section=".testimonials">
+        <span class="toggle">testimonials</span>
+    </li>
+</ul>
+<!-- end bullets -->
+<!-- start landing page -->
+    <div class="landing-page">
+        <i class="fa-solid fa-angles-down down"></i>
+        <div class="overlay">
+            <div class="header-area">
+                <a href="" class="logo">OSAMA</a>
+                <ul class="links">
+                    <li style="--i:1"><a href="" class="active" data-section=".landing-page">home</a></li>
+                    <li style="--i:2"><a href="" data-section=".about-me">about me</a></li>
+                    <li style="--i:3"><a href="" data-section=".skills">skills</a></li>
+                    <li style="--i:4"><a href="" data-section=".gallery">gallary</a></li>
+                    <li style="--i:5"><a href="" data-section=".contact">contact</a></li>
+                </ul>
+                <a class="work">work with us</a>
+                <i class="fa-solid fa-bars list"></i>
+                <i class="fa-solid fa-xmark x"></i>
+            </div>
+            <div class="introduction-text">
+                <div class="text">
+                    <span class="special">WE ARE <span class="creative">CREATIVE </span> DESIGN AGENCY</span>
+                    <h2 id="hello">hello, <span id="effect"></span></h2>
+                    <p>A distinguished content creator, front-end developer, with a lot of experience and applications at work, i design websites and web applications, amz It is a company that has a marketer, a front-end develober,  back-end develober, graphic designer</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100067178573868&locale=ar_AR" target="_blank"><i style="--i:1" class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/OsamaS16402" target="_blank"><i style="--i:2" class="fa-brands fa-twitter"></i></a>
+                        <i style="--i:3" class="fa-brands fa-square-instagram"></i>
+                        <i style="--i:4" class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <button class="download">Download Cv</button>
+                </div>
+                <div class="image">
+                    <img src="img/pencilsketchadjusted-7764296.png" alt="" id="image"> 
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end landing page -->
+
+<!-- start about-->
+<div class="about-me">
+    <div class="main-title">About Me</div>
+        <div class="container">
+        <div class="text-about">
+            <h2>Frontend  develober</h2>
+            <p id="one">My name is Osama, a front-end developer. I have many projects using languages ​​specialized in this field. Owner of a company Amz</p>
+            <p id="two">This company has many employees, including a back-end developer, a front-end developer, an advertising marketer, and a graphic designer. </p>
+            <button class="btn-about">View All<i class="fa-solid fa-arrow-right right"></i></button>
+            <img src="img/360_F_599012797_nAUTiVIm2VfISUhJlXJd6yX8jhnzxEm6.png" alt="" id="robot">
+        </div>
+    </div>
+</div>
+<!-- end about-->
+<!-- start our skills -->
+<div class="skills">
+    <div class="main-title">our skills</div>
+    <div class="container">
+        <div class="skills-value">
+            <label for="">Html</label>
+            <div class="cont first-1">
+                <span class="one" data-width="85%"></span>
+            </div>
+            <label for="">css</label>
+            <div class="cont first-2">
+                <span class="two" data-width="80%"></span>
+            </div>
+            <label for="">java script</label>
+            <div class="cont first-3">
+                <span class="three" data-width="90%"></span>
+            </div>
+            <label for="">react js</label>
+            <div class="cont first-4">
+                <span class="four" data-width="75%"></span>
+            </div>
+        </div>
+        <div class="skills-content">
+            <h2 class="title-skills">We Use Creativity To Get Our Clients.</h2>
+            <p>We Do All The Necessary Requirements To Obtain The Highest Value And Appreciation Within The Labor Market.
+                We Have Many Specialists In All The Skills Mentioned</p>
+                <span style="--i:1 opacity: 0;"><i class="fa-solid fa-check fa-beat-fade"></i> We Have The Highest Ratings In Our Specialties</span>
+                <span style="--i:2 opacity: 0;"><i class="fa-solid fa-check fa-beat-fade"></i> We Have Many Skills That Lead Us To Success</span>
+                <span style="--i:3 opacity: 0;"><i class="fa-solid fa-check fa-beat-fade"></i> Experienced Team</span>
+                <a>Amz Link</a>
+        </div>
+</div>
+<!-- end our skills -->
+<!-- start our gallary -->
+    <div class="gallery">
+        <div class="main-title">our gallary</div>
+        <div class="container">
+            <div class="gallery-box">
+                <img class="left" src="img/wallpaperflare.com_wallpaper (7).jpg" alt="Image One">
+                <img class="scale-1" src="img/wallpaperflare.com_wallpaper (11).jpg" alt="Image Two">
+                <img class="scale-1" src="img/wallpaperflare.com_wallpaper (12).jpg" alt="Image Three">
+                <img class="right" src="img/wallpaperflare.com_wallpaper.jpg" alt="Image Four">
+                <img class="left-2" src="img/wallpaperflare.com_wallpaper (10).jpg" alt="Image Five">
+                <img class="scale" src="img/wallpaperflare.com_wallpaper (14).jpg" alt="Image Six">
+                <img class="scale" src="img/wallpaperflare.com_wallpaper (15).jpg" alt="Image Seven">
+                <img class="right" src="img/wallpaperflare.com_wallpaper (13).jpg" alt="Image Eight">
+            </div>
+        </div>
+    </div>
+<!-- end our gallary -->
+<!-- start timeline -->
+    <div class="timeline">
+        <div class="main-title">Time line</div>
+        <div class="container">
+            <div class="content-timeline">
+                <span class="line-timeline-1"></span>
+                <span class="line-timeline-2"></span>
+                <span class="line-timeline-3"></span>
+                <div class="year">2023</div>
+                    <div class="left">
+                        <span class="circle-left"></span>
+                        <h3>Fontend Develober</h3>
+                        <p>I'm A Web Develober, I Design Websites And Web Applications, I Do Many Projects, And I Have Enough Experience To Do That.</p>
+                    </div>
+                <div class="clear-float"></div>
+                    <div class="right">
+                        <span class="circle-right"></span>
+                        <h3>Public Relations</h3>
+                        <p>Official Spokesman And Performance Analyst, I am a public relations graduate and have experience in communication and speaking</p>
+                    </div>
+            </div>
+            <div class="content-timeline">
+                <span class="line-timeline-1"></span>
+                <span class="line-timeline-2"></span>
+                <span class="line-timeline-3"></span>
+                <div class="year">2024</div>
+                    <div class="left">
+                        <span class="circle-left"></span>
+                        <h3>Social Media</h3>
+                        <p>I Am Able To Use All Social Media Sites And Make Them Advanced, We Solve Problems In Available Specializations Such As Programming, Design, And Social Media</p>
+                    </div>
+
+                <div class="clear-float"></div>
+                <div class="right">
+                        <span class="circle-right"></span>
+                        <h3>Marketing</h3>
+                        <p>Facebook And Google Ads Marketer For Users, We Do Sponsored Marketing For Advertisements, We Have Extensive Experience In Marketing In General.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+<!-- end timeline -->
+<!-- start feature -->
+    <div class="feature">
+        <div class="main-title">our feature</div>
+        <div class="container">
+            <div class="box-feature one" style="--i:1">
+                <img src="img/coding.png" alt="">
+                <div class="text-feature">
+                    <h3>development</h3>
+                    <p>Front End And Back End Develober</p>
+                </div>
+            </div>
+            <div class="box-feature one" style="--i:2">
+                <img src="img/requirements.png" alt="">
+                <div class="text-feature">
+                    <h3>Requirements</h3>
+                    <p>Official Spokesman And Performance Analyst</p>
+                </div>
+            </div>
+            <div class="box-feature one" style="--i:3">
+                <img src="img/bullhorn.png" alt="">
+                <div class="text-feature">
+                    <h3>Marketing</h3>
+                    <p>Facebook And Google Ads Marketer For Users.</p>
+                </div>
+            </div>
+            <div class="box-feature two" style="--a:1">
+                <img src="img/social-media (1).png" alt="">
+                <div class="text-feature">
+                    <h3>video editor</h3>
+                    <p>Editor to add powerful sounds and effects</p>
+                </div>
+            </div>
+            <div class="box-feature two" style="--a:2">
+                <img src="img/social-media.png" alt="">
+                <div class="text-feature">
+                    <h3>socia Media</h3>
+                    <p>I Am Able To Use All Social Media Sites And Make Them Advanced</p>
+                </div>
+            </div>
+            <div class="box-feature two" style="--a:3">
+                <img src="img/graphic-designer.png" alt="">
+                <div class="text-feature">
+                    <h3>graphic designer</h3>
+                    <p>We Create Modern Designs That Meet The Demands Of The Modern Market</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end feature -->
+<!-- start testimolians -->
+    <div class="testimonials">
+        <div class="main-title">testimonials</div>
+        <div class="container">
+            <div class="box-testimonials">
+                <p>i'm very happy with the product is amazing and the price was good.</p>
+                <div class="info-test">
+                    <img src="img/T1.png" alt="">
+                    <div class="text-info">
+                        <h3>jack releach</h3>
+                        <p>oz company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-testimonials">
+                <p>i'm very happy with the product is amazing and the price was good.</p>
+                <div class="info-test">
+                    <img src="img/T3.png" alt="">
+                    <div class="text-info">
+                        <h3>martina bellien</h3>
+                        <p>ceo company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-testimonials">
+                <p>i'm very happy with the product is amazing and the price was good.</p>
+                <div class="info-test">
+                    <img src="img/T4.png" alt="">
+                    <div class="text-info">
+                        <h3>rokan benar</h3>
+                        <p>right flag company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end testimolians -->
+<!-- start contact -->
+<div class="contact">
+    <div class="main-title">contact us</div>
+        <div class="container">
+            <div class="inputs">
+                <div class="left-inputs">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Phone">
+                    <input type="text" placeholder="Your Email">
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                <div class="right-inputs">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+</div>
+<!-- end contact -->
+<!-- start footer -->
+<div class="footer">
+    <span>Created With Osama Saif</span>
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
